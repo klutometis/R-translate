@@ -1,7 +1,7 @@
 \name{get.key}
 \alias{get.key}
-\title{Pull the API key from \code{options} or the \code{GOOGLE_KEY}
-environment variable.}
+\title{Pull the API key from \code{getOption('google.key')} or the
+\code{GOOGLE_KEY} environment variable.}
 \usage{
   get.key()
 }
@@ -9,7 +9,7 @@ environment variable.}
   The API key
 }
 \description{
-  Pull the API key from \code{options} or the
-  \code{GOOGLE_KEY} environment variable.
+  Pull the API key from \code{getOption('google.key')} or
+  the \code{GOOGLE_KEY} environment variable.
 }
 

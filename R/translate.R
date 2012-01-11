@@ -2,6 +2,9 @@
 ##' @name translate-package
 ##' @docType package
 ##' @title translate
+##' @examples
+##' set.key('YOUR-API-KEY')
+##' translate('Hello, world!', 'en', 'de')
 NULL
 
 ##' @import RCurl RJSONIO lisp functional
@@ -9,8 +12,8 @@ NULL
 
 google.base <- 'https://www.googleapis.com/language/translate/v2%s?key=%s%s%s%s'
 
-##' Pull the API key from \code{options} or the \code{GOOGLE_KEY}
-##' environment variable.
+##' Pull the API key from \code{getOption('google.key')} or the
+##' \code{GOOGLE_KEY} environment variable.
 ##' @return The API key
 ##' @export
 get.key <- function() {
@@ -25,18 +28,17 @@ get.key <- function() {
 }
 
 ##' Set the API key in \code{options}.
-##' @inheritParams google.url
+##' @param key The API key
 ##' @export
 set.key <- function(key) options(google.key=key)
 
 ##' Generate an API URL.
-##' @param method One of \code{'translate'} (default),
-##' \code{'detect'}, \code{'languages'}
+##' @param method One of \code{"translate"} (default),
+##' \code{"detect"}, \code{"languages"}
 ##' @param query The text to invoke against
-##' @param source The source language, e.g. \code{en}
-##' @param target The target language, e.g. \code{de}
-##' @param key The API key (pulled from \code{getOption('google.key')}
-##' by default)
+##' @param source The source language, e.g. \code{"en"}
+##' @param target The target language, e.g. \code{"de"}
+##' @param key The API key
 ##' @return An API URL
 google.url <- function(method=NULL,
                        query=NULL,

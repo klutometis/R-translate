@@ -5,8 +5,7 @@
   set.key(key)
 }
 \arguments{
-  \item{key}{The API key (pulled from
-  \code{getOption('google.key')} by default)}
+  \item{key}{The API key}
 }
 \description{
   Set the API key in \code{options}.

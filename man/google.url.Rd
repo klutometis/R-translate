@@ -6,17 +6,16 @@
     target = NULL, key = get.key())
 }
 \arguments{
-  \item{method}{One of \code{'translate'} (default),
-  \code{'detect'}, \code{'languages'}}
+  \item{method}{One of \code{"translate"} (default),
+  \code{"detect"}, \code{"languages"}}
 
   \item{query}{The text to invoke against}
 
-  \item{source}{The source language, e.g. \code{en}}
+  \item{source}{The source language, e.g. \code{"en"}}
 
-  \item{target}{The target language, e.g. \code{de}}
+  \item{target}{The target language, e.g. \code{"de"}}
 
-  \item{key}{The API key (pulled from
-  \code{getOption('google.key')} by default)}
+  \item{key}{The API key}
 }
 \value{
   An API URL

@@ -7,12 +7,11 @@
 \arguments{
   \item{query}{The text to invoke against}
 
-  \item{source}{The source language, e.g. \code{en}}
+  \item{source}{The source language, e.g. \code{"en"}}
 
-  \item{target}{The target language, e.g. \code{de}}
+  \item{target}{The target language, e.g. \code{"de"}}
 
-  \item{key}{The API key (pulled from
-  \code{getOption('google.key')} by default)}
+  \item{key}{The API key}
 }
 \description{
   Translate the given text from a source to a target

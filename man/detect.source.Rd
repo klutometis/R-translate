@@ -7,8 +7,7 @@
 \arguments{
   \item{query}{The text to invoke against}
 
-  \item{key}{The API key (pulled from
-  \code{getOption('google.key')} by default)}
+  \item{key}{The API key}
 }
 \value{
   A list of potential source languages
