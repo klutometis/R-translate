@@ -1,0 +1,18 @@
+Package: translate
+Type: Package
+Title: Bindings for the Google Translate API v2
+Description: Bindings for the Google Translate API v2
+Version: 0.1
+Date: 2012-01-11
+Author: Peter Danenberg <pcd@roxygen.org>
+Maintainer: Peter Danenberg <pcd@roxygen.org>
+License: GPL
+Imports:
+    RCurl,
+    RJSONIO,
+    functional,
+    lisp
+Suggests:
+    debug
+Collate:
+    'translate.R'
