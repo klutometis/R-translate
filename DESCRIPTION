@@ -12,7 +12,5 @@ Imports:
     RJSONIO,
     functional,
     lisp
-Suggests:
-    debug
 Collate:
     'translate.R'
