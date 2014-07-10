@@ -1,4 +1,4 @@
-% Created 2014-07-09 Wed 16:35
+% Created 2014-07-09 Wed 17:07
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -19,7 +19,7 @@
 %\VignetteIndexEntry{Using translate}
 \author{Peter Danenberg}
 \date{\today}
-\title{vignette}
+\title{Translate vignette}
 \hypersetup{
   pdfkeywords={},
   pdfsubject={},
