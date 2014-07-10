@@ -2,9 +2,10 @@
 ##' @name translate-package
 ##' @docType package
 ##' @title translate
-##' @examples
-##' set.key('YOUR-API-KEY')
-##' translate('Hello, world!', 'en', 'de')
+##' @examples \dontrun{
+##'   set.key('YOUR-API-KEY')
+##'   translate('Hello, world!', 'en', 'de')
+##' }
 NULL
 
 ##' @import RCurl RJSONIO lisp functional

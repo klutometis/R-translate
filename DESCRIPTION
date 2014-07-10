@@ -12,5 +12,3 @@ Imports:
     RJSONIO,
     functional,
     lisp
-Collate:
-    'translate.R'
